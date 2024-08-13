@@ -1,0 +1,12 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: scroll;
+}
+.fila{
+   justify-content: start;
+}
+.encabezados{
+    justify-content: start;
+}

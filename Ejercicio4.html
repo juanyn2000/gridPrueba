@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="./assets/img/logo.png" alt="" width="86px" height="25px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Carreras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="container row my-4 text-center">
+      <div class="icon col-6 col-md-3">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <p class="subtitle fs-3">Estudiantes</p>
+      </div>
+      <div class="icon col-6 col-md-3">
+        <i class="fa-solid fa-chalkboard-user"></i>
+        <p class="subtitle fs-3">Docentes</p>
+      </div>
+      <div class="icon col-6 col-md-3">
+        <i class="fa-solid fa-people-arrows"></i>
+        <p
+          class="subtitle fs-3 border-bottom border-3 border-success border-opacity-50"
+        >
+          Colaboradores
+        </p>
+      </div>
+      <div class="icon col-6 col-md-3">
+        <i class="fa-solid fa-newspaper"></i>
+        <p class="subtitle fs-3">Post</p>
+      </div>
+    </section>
+    <div>
+      <button
+        type="button"
+        class="button btn btn-outline-success rounded aligne-items-center"
+      >
+        Nuevo
+      </button>
+    </div>
+    <table class="table container col-12 col-md-12">
+
+        <tr class="encabezados col-12 d-flex ">
+          <th class="col-1">#</th>
+          <th class="col-2">Nombre</th>
+          <th class="col-2">Apellido</th>
+          <th class="col-2">Email</th>
+          <th class="col-2">Carrera</th>
+          <th class="col-2">Acciones</th>
+        </tr>
+    
+      <tbody class="fila col-12">
+        <tr class="col-12 ">
+          <td class="col-1 bg-light ">1</td>
+          <td class="col-2  bg-light">Juan</td>
+          <td class="col-2  bg-light">Pérez</td>
+          <td class="col-2  bg-light">perez@example.com</td>
+          <td class="col-2  bg-light">Ingeniería</td>
+          <td class="d-flex  bg-light col-3">
+            <button class="button btn btn-outline-danger">Eliminar</button>
+            <button class="button btn btn-outline-warning">Modificar</button>
+          </td>
+        </tr>
+        <tr class="fila dos">
+          <td class="col-1">2</td>
+          <td class="col-2">María</td>
+          <td class="col-2">García</td>
+          <td class="col-2">garcia@example.com</td>
+          <td class="col-2">Medicina</td>
+          <td class="d-flex col-3">
+            <button class="button btn btn-outline-danger">Eliminar</button>
+            <button class="button btn btn-outline-warning">Modificar</button>
+          </td>
+        </tr>
+        <tr class="fila tres">
+          <td class="col-1  bg-light">3</td>
+          <td class="col-2  bg-light">Teresa</td>
+          <td class="col-2  bg-light">Lopez</td>
+          <td class="col-2  bg-light">Teresa@example.com</td>
+          <td class="col-2  bg-light">Diseño</td>
+          <td class="d-flex  bg-light col-3">
+            <button class="button btn btn-outline-danger">Eliminar</button>
+            <button class="button btn btn-outline-warning">Modificar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
